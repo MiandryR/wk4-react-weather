@@ -11,6 +11,6 @@ export default function Weather(props) {
   axios.get(url).then(displayTemperature);
 
     return (
-        <Loader type="Hearts" color="pink" height={80} width={80} />
+        <Loader type="Hearts" color="red" height={80} width={80} />
         );
 }
